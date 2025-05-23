@@ -1,7 +1,6 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
-    id 'org.jetbrains.kotlin.plugin.compose' // Added Compose compiler plugin
     id 'kotlin-kapt'
     id 'dagger.hilt.android.plugin'
 }
@@ -24,7 +23,7 @@ android {
     }
 
     composeOptions {
-        kotlinCompilerExtensionVersion = "2.1.0" // Ensures compatibility with Kotlin 2.1.20
+        kotlinCompilerExtensionVersion = "2.1.0" // Matches Kotlin 2.1.20
     }
 
     kotlinOptions {
@@ -55,17 +54,17 @@ dependencies {
     kapt "com.google.dagger:hilt-android-compiler:2.51.1"
     implementation "androidx.hilt:hilt-navigation-compose:1.2.0"
 
-    // Supabase SDK (v3.1.4, using auth-kt)
-    implementation("io.github.jan-tennert.supabase:postgrest-kt:3.1.4")
-    implementation("io.github.jan-tennert.supabase:storage-kt:3.1.4")
-    implementation("io.github.jan-tennert.supabase:auth-kt:3.1.4")
+    // Supabase SDK
+    implementation "io.github.jan-tennert.supabase:postgrest-kt:3.1.4"
+    implementation "io.github.jan-tennert.supabase:storage-kt:3.1.4"
+    implementation "io.github.jan-tennert.supabase:auth-kt:3.1.4"
 
-    // Ktor Client (3.1.2)
-    implementation("io.ktor:ktor-client-core:3.1.2")
-    implementation("io.ktor:ktor-client-okhttp:3.1.2")
-    implementation("io.ktor:ktor-client-serialization:3.1.2")
-    implementation("io.ktor:ktor-client-content-negotiation:3.1.2")
-    implementation("io.ktor:ktor-serialization-kotlinx-json:3.1.2")
+    // Ktor Client
+    implementation "io.ktor:ktor-client-core:3.1.2"
+    implementation "io.ktor:ktor-client-okhttp:3.1.2"
+    implementation "io.ktor:ktor-client-serialization:3.1.2"
+    implementation "io.ktor:ktor-client-content-negotiation:3.1.2"
+    implementation "io.ktor:ktor-serialization-kotlinx-json:3.1.2"
 
     // Coil for image loading
     implementation "io.coil-kt:coil-compose:2.6.0"

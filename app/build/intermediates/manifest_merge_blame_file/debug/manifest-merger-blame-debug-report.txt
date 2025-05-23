@@ -1,0 +1,245 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.remote.dashboard"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\sahil\AndroidStudioProjects\Dashboard\app\src\main\AndroidManifest.xml:3:5-67
+11-->C:\Users\sahil\AndroidStudioProjects\Dashboard\app\src\main\AndroidManifest.xml:3:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\Users\sahil\AndroidStudioProjects\Dashboard\app\src\main\AndroidManifest.xml:4:5-79
+12-->C:\Users\sahil\AndroidStudioProjects\Dashboard\app\src\main\AndroidManifest.xml:4:22-76
+13    <uses-permission
+13-->C:\Users\sahil\AndroidStudioProjects\Dashboard\app\src\main\AndroidManifest.xml:5:5-6:37
+14        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+14-->C:\Users\sahil\AndroidStudioProjects\Dashboard\app\src\main\AndroidManifest.xml:5:22-78
+15        android:maxSdkVersion="28" />
+15-->C:\Users\sahil\AndroidStudioProjects\Dashboard\app\src\main\AndroidManifest.xml:6:9-35
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->C:\Users\sahil\AndroidStudioProjects\Dashboard\app\src\main\AndroidManifest.xml:7:5-79
+16-->C:\Users\sahil\AndroidStudioProjects\Dashboard\app\src\main\AndroidManifest.xml:7:22-77
+17    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+17-->C:\Users\sahil\AndroidStudioProjects\Dashboard\app\src\main\AndroidManifest.xml:8:5-78
+17-->C:\Users\sahil\AndroidStudioProjects\Dashboard\app\src\main\AndroidManifest.xml:8:22-76
+18    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+18-->C:\Users\sahil\AndroidStudioProjects\Dashboard\app\src\main\AndroidManifest.xml:9:5-80
+18-->C:\Users\sahil\AndroidStudioProjects\Dashboard\app\src\main\AndroidManifest.xml:9:22-78
+19
+20    <uses-feature
+20-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\sahil\.gradle\caches\8.12\transforms\1e7d8e444f6472f653678ebfa51785d3\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:26:5-28:35
+21        android:glEsVersion="0x00020000"
+21-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\sahil\.gradle\caches\8.12\transforms\1e7d8e444f6472f653678ebfa51785d3\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:27:9-41
+22        android:required="true" />
+22-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\sahil\.gradle\caches\8.12\transforms\1e7d8e444f6472f653678ebfa51785d3\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:28:9-32
+23
+24    <queries>
+24-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\sahil\.gradle\caches\8.12\transforms\1e7d8e444f6472f653678ebfa51785d3\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:30:5-34:15
+25
+26        <!-- Needs to be explicitly declared on Android R+ -->
+27        <package android:name="com.google.android.apps.maps" />
+27-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\sahil\.gradle\caches\8.12\transforms\1e7d8e444f6472f653678ebfa51785d3\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:33:9-64
+27-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\sahil\.gradle\caches\8.12\transforms\1e7d8e444f6472f653678ebfa51785d3\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:33:18-61
+28    </queries>
+29
+30    <permission
+30-->[androidx.core:core:1.13.1] C:\Users\sahil\.gradle\caches\8.12\transforms\1f0806b8f815640eb2153dc8552e6e03\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+31        android:name="com.remote.dashboard.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+31-->[androidx.core:core:1.13.1] C:\Users\sahil\.gradle\caches\8.12\transforms\1f0806b8f815640eb2153dc8552e6e03\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+32        android:protectionLevel="signature" />
+32-->[androidx.core:core:1.13.1] C:\Users\sahil\.gradle\caches\8.12\transforms\1f0806b8f815640eb2153dc8552e6e03\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+33
+34    <uses-permission android:name="com.remote.dashboard.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+34-->[androidx.core:core:1.13.1] C:\Users\sahil\.gradle\caches\8.12\transforms\1f0806b8f815640eb2153dc8552e6e03\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+34-->[androidx.core:core:1.13.1] C:\Users\sahil\.gradle\caches\8.12\transforms\1f0806b8f815640eb2153dc8552e6e03\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+35
+36    <application
+36-->C:\Users\sahil\AndroidStudioProjects\Dashboard\app\src\main\AndroidManifest.xml:11:5-43:19
+37        android:name="com.remote.dashboard.App"
+37-->C:\Users\sahil\AndroidStudioProjects\Dashboard\app\src\main\AndroidManifest.xml:12:9-28
+38        android:allowBackup="true"
+38-->C:\Users\sahil\AndroidStudioProjects\Dashboard\app\src\main\AndroidManifest.xml:13:9-35
+39        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+39-->[androidx.core:core:1.13.1] C:\Users\sahil\.gradle\caches\8.12\transforms\1f0806b8f815640eb2153dc8552e6e03\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+40        android:debuggable="true"
+41        android:extractNativeLibs="false"
+42        android:icon="@mipmap/ic_launcher"
+42-->C:\Users\sahil\AndroidStudioProjects\Dashboard\app\src\main\AndroidManifest.xml:14:9-43
+43        android:label="@string/app_name"
+43-->C:\Users\sahil\AndroidStudioProjects\Dashboard\app\src\main\AndroidManifest.xml:15:9-41
+44        android:roundIcon="@mipmap/ic_launcher_round"
+44-->C:\Users\sahil\AndroidStudioProjects\Dashboard\app\src\main\AndroidManifest.xml:16:9-54
+45        android:supportsRtl="true"
+45-->C:\Users\sahil\AndroidStudioProjects\Dashboard\app\src\main\AndroidManifest.xml:17:9-35
+46        android:theme="@style/Theme.RemoteDashboard" >
+46-->C:\Users\sahil\AndroidStudioProjects\Dashboard\app\src\main\AndroidManifest.xml:18:9-53
+47        <activity
+47-->C:\Users\sahil\AndroidStudioProjects\Dashboard\app\src\main\AndroidManifest.xml:19:9-26:20
+48            android:name="com.remote.dashboard.MainActivity"
+48-->C:\Users\sahil\AndroidStudioProjects\Dashboard\app\src\main\AndroidManifest.xml:20:13-41
+49            android:exported="true" >
+49-->C:\Users\sahil\AndroidStudioProjects\Dashboard\app\src\main\AndroidManifest.xml:21:13-36
+50            <intent-filter>
+50-->C:\Users\sahil\AndroidStudioProjects\Dashboard\app\src\main\AndroidManifest.xml:22:13-25:29
+51                <action android:name="android.intent.action.MAIN" />
+51-->C:\Users\sahil\AndroidStudioProjects\Dashboard\app\src\main\AndroidManifest.xml:23:17-69
+51-->C:\Users\sahil\AndroidStudioProjects\Dashboard\app\src\main\AndroidManifest.xml:23:25-66
+52
+53                <category android:name="android.intent.category.LAUNCHER" />
+53-->C:\Users\sahil\AndroidStudioProjects\Dashboard\app\src\main\AndroidManifest.xml:24:17-77
+53-->C:\Users\sahil\AndroidStudioProjects\Dashboard\app\src\main\AndroidManifest.xml:24:27-74
+54            </intent-filter>
+55        </activity>
+56
+57        <!-- FileProvider for sharing files -->
+58        <provider
+59            android:name="androidx.core.content.FileProvider"
+59-->C:\Users\sahil\AndroidStudioProjects\Dashboard\app\src\main\AndroidManifest.xml:30:13-62
+60            android:authorities="com.remote.dashboard.fileprovider"
+60-->C:\Users\sahil\AndroidStudioProjects\Dashboard\app\src\main\AndroidManifest.xml:31:13-64
+61            android:exported="false"
+61-->C:\Users\sahil\AndroidStudioProjects\Dashboard\app\src\main\AndroidManifest.xml:32:13-37
+62            android:grantUriPermissions="true" >
+62-->C:\Users\sahil\AndroidStudioProjects\Dashboard\app\src\main\AndroidManifest.xml:33:13-47
+63            <meta-data
+63-->C:\Users\sahil\AndroidStudioProjects\Dashboard\app\src\main\AndroidManifest.xml:34:13-36:54
+64                android:name="android.support.FILE_PROVIDER_PATHS"
+64-->C:\Users\sahil\AndroidStudioProjects\Dashboard\app\src\main\AndroidManifest.xml:35:17-67
+65                android:resource="@xml/file_paths" />
+65-->C:\Users\sahil\AndroidStudioProjects\Dashboard\app\src\main\AndroidManifest.xml:36:17-51
+66        </provider>
+67
+68        <!-- Google Maps API Key -->
+69        <meta-data
+69-->C:\Users\sahil\AndroidStudioProjects\Dashboard\app\src\main\AndroidManifest.xml:40:9-42:55
+70            android:name="com.google.android.geo.API_KEY"
+70-->C:\Users\sahil\AndroidStudioProjects\Dashboard\app\src\main\AndroidManifest.xml:41:13-58
+71            android:value="@string/google_maps_key" />
+71-->C:\Users\sahil\AndroidStudioProjects\Dashboard\app\src\main\AndroidManifest.xml:42:13-52
+72        <!-- Needs to be explicitly declared on P+ -->
+73        <uses-library
+73-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\sahil\.gradle\caches\8.12\transforms\1e7d8e444f6472f653678ebfa51785d3\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:39:9-41:40
+74            android:name="org.apache.http.legacy"
+74-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\sahil\.gradle\caches\8.12\transforms\1e7d8e444f6472f653678ebfa51785d3\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:40:13-50
+75            android:required="false" />
+75-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\sahil\.gradle\caches\8.12\transforms\1e7d8e444f6472f653678ebfa51785d3\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:41:13-37
+76
+77        <activity
+77-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\sahil\.gradle\caches\8.12\transforms\db826671ecfc28217f7acd1726b1d01e\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+78            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+78-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\sahil\.gradle\caches\8.12\transforms\db826671ecfc28217f7acd1726b1d01e\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+79            android:exported="false"
+79-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\sahil\.gradle\caches\8.12\transforms\db826671ecfc28217f7acd1726b1d01e\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+80            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+80-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\sahil\.gradle\caches\8.12\transforms\db826671ecfc28217f7acd1726b1d01e\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+81
+82        <meta-data
+82-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\sahil\.gradle\caches\8.12\transforms\642f4cdc08074e167ef4f0ae18386a58\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+83            android:name="com.google.android.gms.version"
+83-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\sahil\.gradle\caches\8.12\transforms\642f4cdc08074e167ef4f0ae18386a58\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+84            android:value="@integer/google_play_services_version" />
+84-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\sahil\.gradle\caches\8.12\transforms\642f4cdc08074e167ef4f0ae18386a58\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+85
+86        <activity
+86-->[androidx.compose.ui:ui-tooling-android:1.7.0] C:\Users\sahil\.gradle\caches\8.12\transforms\6c73294b2c13ad2c7fb085215e005e55\transformed\jetified-ui-tooling-release\AndroidManifest.xml:23:9-25:39
+87            android:name="androidx.compose.ui.tooling.PreviewActivity"
+87-->[androidx.compose.ui:ui-tooling-android:1.7.0] C:\Users\sahil\.gradle\caches\8.12\transforms\6c73294b2c13ad2c7fb085215e005e55\transformed\jetified-ui-tooling-release\AndroidManifest.xml:24:13-71
+88            android:exported="true" />
+88-->[androidx.compose.ui:ui-tooling-android:1.7.0] C:\Users\sahil\.gradle\caches\8.12\transforms\6c73294b2c13ad2c7fb085215e005e55\transformed\jetified-ui-tooling-release\AndroidManifest.xml:25:13-36
+89        <activity
+89-->[androidx.compose.ui:ui-test-manifest:1.7.0] C:\Users\sahil\.gradle\caches\8.12\transforms\1e6a82e40086a7ead91df027a48dc693\transformed\jetified-ui-test-manifest-1.7.0\AndroidManifest.xml:23:9-25:39
+90            android:name="androidx.activity.ComponentActivity"
+90-->[androidx.compose.ui:ui-test-manifest:1.7.0] C:\Users\sahil\.gradle\caches\8.12\transforms\1e6a82e40086a7ead91df027a48dc693\transformed\jetified-ui-test-manifest-1.7.0\AndroidManifest.xml:24:13-63
+91            android:exported="true" />
+91-->[androidx.compose.ui:ui-test-manifest:1.7.0] C:\Users\sahil\.gradle\caches\8.12\transforms\1e6a82e40086a7ead91df027a48dc693\transformed\jetified-ui-test-manifest-1.7.0\AndroidManifest.xml:25:13-36
+92
+93        <provider
+93-->[io.github.jan-tennert.supabase:storage-kt-android-debug:3.1.4] C:\Users\sahil\.gradle\caches\8.12\transforms\7dd8285caebbb3633db22f299439d7df\transformed\jetified-storage-kt-debug\AndroidManifest.xml:9:9-17:20
+94            android:name="androidx.startup.InitializationProvider"
+94-->[io.github.jan-tennert.supabase:storage-kt-android-debug:3.1.4] C:\Users\sahil\.gradle\caches\8.12\transforms\7dd8285caebbb3633db22f299439d7df\transformed\jetified-storage-kt-debug\AndroidManifest.xml:10:13-67
+95            android:authorities="com.remote.dashboard.androidx-startup"
+95-->[io.github.jan-tennert.supabase:storage-kt-android-debug:3.1.4] C:\Users\sahil\.gradle\caches\8.12\transforms\7dd8285caebbb3633db22f299439d7df\transformed\jetified-storage-kt-debug\AndroidManifest.xml:11:13-68
+96            android:exported="false" >
+96-->[io.github.jan-tennert.supabase:storage-kt-android-debug:3.1.4] C:\Users\sahil\.gradle\caches\8.12\transforms\7dd8285caebbb3633db22f299439d7df\transformed\jetified-storage-kt-debug\AndroidManifest.xml:12:13-37
+97            <meta-data
+97-->[io.github.jan-tennert.supabase:storage-kt-android-debug:3.1.4] C:\Users\sahil\.gradle\caches\8.12\transforms\7dd8285caebbb3633db22f299439d7df\transformed\jetified-storage-kt-debug\AndroidManifest.xml:14:13-16:52
+98                android:name="io.github.jan.supabase.storage.SupabaseInitializer"
+98-->[io.github.jan-tennert.supabase:storage-kt-android-debug:3.1.4] C:\Users\sahil\.gradle\caches\8.12\transforms\7dd8285caebbb3633db22f299439d7df\transformed\jetified-storage-kt-debug\AndroidManifest.xml:15:17-82
+99                android:value="androidx.startup" />
+99-->[io.github.jan-tennert.supabase:storage-kt-android-debug:3.1.4] C:\Users\sahil\.gradle\caches\8.12\transforms\7dd8285caebbb3633db22f299439d7df\transformed\jetified-storage-kt-debug\AndroidManifest.xml:16:17-49
+100            <meta-data
+100-->[io.github.jan-tennert.supabase:auth-kt-android-debug:3.1.4] C:\Users\sahil\.gradle\caches\8.12\transforms\493a07797c4efa7cb3ddc06487b07bc3\transformed\jetified-auth-kt-debug\AndroidManifest.xml:14:13-16:52
+101                android:name="io.github.jan.supabase.auth.SupabaseInitializer"
+101-->[io.github.jan-tennert.supabase:auth-kt-android-debug:3.1.4] C:\Users\sahil\.gradle\caches\8.12\transforms\493a07797c4efa7cb3ddc06487b07bc3\transformed\jetified-auth-kt-debug\AndroidManifest.xml:15:17-79
+102                android:value="androidx.startup" />
+102-->[io.github.jan-tennert.supabase:auth-kt-android-debug:3.1.4] C:\Users\sahil\.gradle\caches\8.12\transforms\493a07797c4efa7cb3ddc06487b07bc3\transformed\jetified-auth-kt-debug\AndroidManifest.xml:16:17-49
+103            <meta-data
+103-->[androidx.emoji2:emoji2:1.3.0] C:\Users\sahil\.gradle\caches\8.12\transforms\7666cc1d1edb1c861592df8f6bec06af\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+104                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+104-->[androidx.emoji2:emoji2:1.3.0] C:\Users\sahil\.gradle\caches\8.12\transforms\7666cc1d1edb1c861592df8f6bec06af\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:30:17-75
+105                android:value="androidx.startup" />
+105-->[androidx.emoji2:emoji2:1.3.0] C:\Users\sahil\.gradle\caches\8.12\transforms\7666cc1d1edb1c861592df8f6bec06af\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:31:17-49
+106            <meta-data
+106-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\sahil\.gradle\caches\8.12\transforms\5480341d91cec2895874e69f9c641776\transformed\jetified-lifecycle-process-2.8.7\AndroidManifest.xml:29:13-31:52
+107                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+107-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\sahil\.gradle\caches\8.12\transforms\5480341d91cec2895874e69f9c641776\transformed\jetified-lifecycle-process-2.8.7\AndroidManifest.xml:30:17-78
+108                android:value="androidx.startup" />
+108-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\sahil\.gradle\caches\8.12\transforms\5480341d91cec2895874e69f9c641776\transformed\jetified-lifecycle-process-2.8.7\AndroidManifest.xml:31:17-49
+109            <meta-data
+109-->[com.russhwolf:multiplatform-settings-no-arg-android-debug:1.3.0] C:\Users\sahil\.gradle\caches\8.12\transforms\f7fea1215126d45f4e58c6e8118ac97d\transformed\jetified-multiplatform-settings-no-arg-debug\AndroidManifest.xml:29:13-31:52
+110                android:name="com.russhwolf.settings.SettingsInitializer"
+110-->[com.russhwolf:multiplatform-settings-no-arg-android-debug:1.3.0] C:\Users\sahil\.gradle\caches\8.12\transforms\f7fea1215126d45f4e58c6e8118ac97d\transformed\jetified-multiplatform-settings-no-arg-debug\AndroidManifest.xml:30:17-74
+111                android:value="androidx.startup" />
+111-->[com.russhwolf:multiplatform-settings-no-arg-android-debug:1.3.0] C:\Users\sahil\.gradle\caches\8.12\transforms\f7fea1215126d45f4e58c6e8118ac97d\transformed\jetified-multiplatform-settings-no-arg-debug\AndroidManifest.xml:31:17-49
+112            <meta-data
+112-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\sahil\.gradle\caches\8.12\transforms\4382fac36a53ebd7c70f49093cb5ee58\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+113                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+113-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\sahil\.gradle\caches\8.12\transforms\4382fac36a53ebd7c70f49093cb5ee58\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+114                android:value="androidx.startup" />
+114-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\sahil\.gradle\caches\8.12\transforms\4382fac36a53ebd7c70f49093cb5ee58\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+115        </provider>
+116
+117        <receiver
+117-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\sahil\.gradle\caches\8.12\transforms\4382fac36a53ebd7c70f49093cb5ee58\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+118            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+118-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\sahil\.gradle\caches\8.12\transforms\4382fac36a53ebd7c70f49093cb5ee58\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+119            android:directBootAware="false"
+119-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\sahil\.gradle\caches\8.12\transforms\4382fac36a53ebd7c70f49093cb5ee58\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+120            android:enabled="true"
+120-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\sahil\.gradle\caches\8.12\transforms\4382fac36a53ebd7c70f49093cb5ee58\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+121            android:exported="true"
+121-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\sahil\.gradle\caches\8.12\transforms\4382fac36a53ebd7c70f49093cb5ee58\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+122            android:permission="android.permission.DUMP" >
+122-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\sahil\.gradle\caches\8.12\transforms\4382fac36a53ebd7c70f49093cb5ee58\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+123            <intent-filter>
+123-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\sahil\.gradle\caches\8.12\transforms\4382fac36a53ebd7c70f49093cb5ee58\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+124                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+124-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\sahil\.gradle\caches\8.12\transforms\4382fac36a53ebd7c70f49093cb5ee58\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+124-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\sahil\.gradle\caches\8.12\transforms\4382fac36a53ebd7c70f49093cb5ee58\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+125            </intent-filter>
+126            <intent-filter>
+126-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\sahil\.gradle\caches\8.12\transforms\4382fac36a53ebd7c70f49093cb5ee58\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+127                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+127-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\sahil\.gradle\caches\8.12\transforms\4382fac36a53ebd7c70f49093cb5ee58\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+127-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\sahil\.gradle\caches\8.12\transforms\4382fac36a53ebd7c70f49093cb5ee58\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+128            </intent-filter>
+129            <intent-filter>
+129-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\sahil\.gradle\caches\8.12\transforms\4382fac36a53ebd7c70f49093cb5ee58\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+130                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+130-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\sahil\.gradle\caches\8.12\transforms\4382fac36a53ebd7c70f49093cb5ee58\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+130-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\sahil\.gradle\caches\8.12\transforms\4382fac36a53ebd7c70f49093cb5ee58\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+131            </intent-filter>
+132            <intent-filter>
+132-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\sahil\.gradle\caches\8.12\transforms\4382fac36a53ebd7c70f49093cb5ee58\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+133                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+133-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\sahil\.gradle\caches\8.12\transforms\4382fac36a53ebd7c70f49093cb5ee58\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+133-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\sahil\.gradle\caches\8.12\transforms\4382fac36a53ebd7c70f49093cb5ee58\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+134            </intent-filter>
+135        </receiver>
+136    </application>
+137
+138</manifest>

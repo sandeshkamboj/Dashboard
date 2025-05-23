@@ -1,0 +1,4 @@
+<resources>
+    <!-- Use exactly this parent, nothing else -->
+    <style name="Theme.RemoteDashboard" parent="Theme.Material3" />
+</resources>
